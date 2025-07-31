@@ -143,35 +143,6 @@
       text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     }
 
-    /* Status */
-    .status {
-      position: absolute;
-      top: 40px;
-      right: 40px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12px;
-      color: rgba(255, 255, 255, 0.6);
-      opacity: 0;
-      animation: fadeIn 2s ease forwards;
-      animation-delay: 1.5s;
-      z-index: 15;
-    }
-
-    .status-dot {
-      width: 6px;
-      height: 6px;
-      background: #ffffff;
-      border-radius: 50%;
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-
     /* Main content */
     .main-content {
       position: absolute;
@@ -355,13 +326,6 @@
       <div class="header">
         <a href="#" class="logo">sure</a>
       </div>
-
-      <!-- Status -->
-      <div class="status">
-        <div class="status-dot"></div>
-        <span>online</span>
-      </div>
-
       <!-- Main Content -->
       <div class="main-content">
         <h1 class="title">sure</h1>
